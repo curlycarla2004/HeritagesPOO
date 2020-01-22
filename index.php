@@ -2,11 +2,15 @@
 
 require 'class/Animal.php';
 require 'class/Oiseaux/Oiseau.php';
+require 'class/Felins/Felin.php';
+require 'class/Marsupial/Marsupial.php';
+
 
 $animaux = [
-  new Animal('Chat', 'j\'aimerai bien manger mon maître'),
+  new Felin('Chat', 'j\'aimerai bien manger mon maître'),
   new Oiseau('Pigeon', "m'oublie sur les passants", TRUE),
   new Oiseau('Pinguin', "je n'aurai bientôt plus de banquise", FALSE),
+  new Marsupial('Koala', 'j\'aimerai bien grimper l\'arbe de eucalyptus', TRUE),
 ];
 
 ?>

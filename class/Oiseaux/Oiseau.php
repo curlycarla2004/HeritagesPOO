@@ -19,6 +19,7 @@ class Oiseau extends Animal
   public function queFaisTu(): string
   {
     //On récupère la constante de classe.
+    //self equivalent de $this for constants
     $emoji = self::EMOJI;
     $output = "<div>$emoji</div>";
     // on utilise le retour de la méthode queFaisTu() issue de la classe parent.
